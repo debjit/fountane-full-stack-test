@@ -1,4 +1,6 @@
 # Todo
+
+- SEO
 ### Create Front Page:
     [-] Nav Bar 
     - Hero Section
