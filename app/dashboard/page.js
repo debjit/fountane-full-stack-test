@@ -45,6 +45,7 @@ function Dashboard() {
   return (
     <QueryClientProvider client={queryClient}>
       <header className=" shadow bg-black text-white">
+        <title>Users Dashboard Page - Fortunate Home page.com</title>
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 justify-between flex">
           <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
           {user ? (

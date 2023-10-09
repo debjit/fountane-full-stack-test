@@ -85,10 +85,11 @@ export default function Home() {
           </Link>
         </div>
       </nav>
-      <div className="text-center mx-auto relative isolate max-w-2xl">
+      <section className="text-center mx-auto relative isolate max-w-2xl">
         {/* <img className="h-8 w-auto" src="/gradient.png" alt=""></img> */}
         {/* style="background-image: url('/gradient.png')" */}
         {/* <div style={{ backgroundImage: `url('/gradient.png')` }}> */}
+        {/* Hero Section */}
         <div>
           <Image
             src="/gradient.png"
@@ -122,7 +123,7 @@ export default function Home() {
             How it works
           </button>
         </div>
-        {/* <img src='/company/Frame10.png' className="w-full h-auto" alt="all company images" /> */}
+        {/* Footer Section  */}
         <div className="flex gap-6 h-12 w-full my-32 justify-center">
           {imgSrc.map((image, index) => (
             <img
@@ -134,7 +135,7 @@ export default function Home() {
             />
           ))}
         </div>
-      </div>
+      </section>
     </main>
   );
 }

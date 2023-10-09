@@ -5,6 +5,8 @@ const poppins = Poppins({ subsets: ['latin'],weight: '400', })
 
 export const metadata = {
   title: 'Fortunate Home page.',
+  language: 'English',
+  keywords: 'Fortunate Home page, experience open source, transparent and efficient borrowing and lending on solana.',
   description: 'Fortunate Home page, experience open source, transparent and efficient borrowing and lending on solana.',
 }
 
