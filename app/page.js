@@ -8,10 +8,10 @@ const playfairDisplay = Playfair_Display({
 
 export default function Home() {
   const imgSrc = [
-    {
-      name: "logo 1",
-      src: "/company/14.png",
-    },
+    // {
+    //   name: "logo 1",
+    //   src: "/company/14.png",
+    // },
     {
       name: "logo 2",
       src: "/company/17.png",
