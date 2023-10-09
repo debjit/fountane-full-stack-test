@@ -46,24 +46,6 @@ function Login() {
 
   return (
     <>
-      {/* <div className="login">
-        <h1>Login</h1>
-        <p>Please enter your email and password to login.</p>
-
-        <input name="email" placeholder="Email" cla />
-        <input
-          name="email"
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
-        />
-        <input
-          type="password"
-          name="password"
-          onChange={(e) => setPassword(e.target.value)}
-          value={password}
-        />
-        <button onClick={handleLogin}>Login</button>
-      </div> */}
       <div className="flex  min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 text-white">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
@@ -81,10 +63,6 @@ function Login() {
             className="space-y-6"
             action="#"
             method="POST"
-            // onSubmit={(e) => {
-            //   e.preventDefault();
-            //   handleLogin();
-            // }}
           >
             <div>
               <label

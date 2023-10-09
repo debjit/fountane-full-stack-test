@@ -15,3 +15,9 @@
     [x] Error fallback stored inside errorMessage veriable
     [x] '/dashboard' is now protected only logged in user can check
     [x] Logout is working.
+
+- branch 'tmdb'
+    [ ] Install react query
+    [ ] Configure the react query
+    [ ] use tmdb api to get the data from there site.
+    [ ] display 4x4 grid of movie and there title.
