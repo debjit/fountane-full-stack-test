@@ -99,7 +99,7 @@ function Movies() {
       accept: "application/json",
       // Todo: This is a security risk and needed to move inside the .env file and not pass to the client
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYWM4NWYwYmQ2Yjg0MDFmZTgxOGFkMzI0Yjc3ZDgzMSIsInN1YiI6IjY1MjM5MDA4YzUwYWQyMDBlYWMzNzk3MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.r5DZW-HE_yxaBMslN9cEfRR9_TptmeQALTKsVvXqHO0",
+        "Bearer token",
     },
   };
   const { isLoading, error, data, isFetching } = useQuery({
